@@ -718,18 +718,18 @@
     <script>
       window.addEventListener("load", function() {
         console.log("Event Listener Active");
-        const cards = document.querySelectorAll(".card");
-        /*cards.forEach(function(card) {
+        const CARDS = document.querySelector(".cards");
+        const cards = CARDS.querySelectorAll(".card");
+        cards.forEach(function(card) {
+          console.log(card);
           const cardBody = card.querySelector(".card-body");
           const cardImg = card.querySelector(".card img");
-          const a = card.createElement("a");
+          const a = document.createElement("a");
           a.href = "./detail.html";
           a.appendChild(cardImg);
           a.appendChild(cardBody);
           card.appendChild(a);
-        });*/
-        cards.forEach(function(card) {
-          console.log(card);
+          CARDS.appendChild(card);
         });
       });
     </script>
