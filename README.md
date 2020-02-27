@@ -1,3 +1,3 @@
 # Blog App
 
-Viewers are requested to observe the web-pages with a zoom of 90%, for their convenience.
+You are requested to view the web-pages with a zoom of 90%, for your convenience.
