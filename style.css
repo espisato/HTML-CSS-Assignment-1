@@ -58,6 +58,7 @@ a {
     from(rgb(0, 150, 255)),
     to(rgb(0, 70, 255))
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
